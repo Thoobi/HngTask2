@@ -13,7 +13,7 @@ import checked from '../assets/payment-animate.json'
 
 const Notification = ({ message, onClose }) => {
     return (
-    <div className="fixed top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 max-lg:top-[50%] max-lg:right-2 right-5 max-lg:w-[90%] w-[60%] border border-black h-[400px] bg-[#FFE1DB] text-black text-center p-2 font-inika">
+    <div className="fixed top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 max-lg:top-[50%] max-lg:right-2 right-5 max-lg:w-[90%] w-[60%] border border-black bg-[#FFE1DB] text-black text-center p-2 font-inika">
         
         <div className='flex flex-col justify-between h-full items-center w-full'>
             <div className='flex flex-row justify-center items-center max-lg:w-[60%] w-[50%] my-2'>
@@ -22,7 +22,7 @@ const Notification = ({ message, onClose }) => {
             <div className="w-[50%] max-lg:w-full ">
                 <Lottie animationData={checked} className="max-lg:size-[full]"/>
             </div>
-            <div className='flex flex-row justify-end'>
+            <div className='flex flex-row justify-center'>
                 <button className="w-[110px] bg-white h-[45px] text-base font-semibold text-black rounded-[20px] shadow-xl" onClick={onClose}>
                     Done
                 </button>
@@ -137,21 +137,19 @@ const Checkout = () =>{
                         </div>
                         
                         {/* payment holder */}
-                            <form className="flex flex-col justify-between items-center h-[40%] mt-10 p-3 bg-slate-100 w-full mx-auto rounded-2xl">
-                                <h2 className="text-2xl font-semibold">Payment</h2>
-                                <div className="w-full flex flex-row justify-center items-center">
+                            <form className="flex flex-col justify-between items-center h-[40%] mt-10 p-4 bg-slate-100 w-full rounded-2xl">
+                                <h2 className="text-2xl font-semibold self-start">Payment</h2>
+                                <div className="w-full flex flex-row justify-start self-start items-center">
                                     <div className="flex flex-row justify-center items-center w-[40%]">
                                         <label className="flex justify-center items-center space-x-2">
-                                            <input type="radio" name="radio" className="hidden peer" />
-                                            <span className="w-3 h-3 border-2 border-black rounded-full peer-checked:bg-black"></span>
+                                            <input type="radio" name="radio" />
                                             <span>Card</span>
                                         </label>
                                     </div>
 
                                     <div className="flex flex-row justify-center items-center w-[60%]">
                                         <label className="flex justify-center items-center space-x-2">
-                                            <input type="radio" name="radio" className="hidden peer" />
-                                            <span className="w-3 h-3 border-2 bg-white border-black rounded-full peer-checked:bg-black peer-checked:border-[1px]  p-1"></span>
+                                            <input type="radio" name="radio" className="" />
                                             <span>Bank Transfer</span>
                                         </label>
                                     </div>
@@ -161,9 +159,15 @@ const Checkout = () =>{
                                 <input type="text" placeholder="Name of card holder" className="w-full h-[50px] border-black border-2 p-4" />
                                 <input type="text" placeholder="Enter your card number" className="w-full h-[50px] border-black border-2 p-4" />
                                 <div className="flex flex-row justify-between items-center w-full">
-                                    <input type="text" placeholder=""   className="w-[60%] h-[50px] border-black border-2     p-2" />
-                                    <input type="text" placeholder="Enter CVV"   className="w-[30%] h-[50px] border-black border-2     p-2" />
+                                    <input type="text" placeholder="Expiration Date"   className="w-[60%] h-[50px] border-black border-2     p-2" />
+                                    <input type="text" placeholder="CVV"   className="w-[30%] h-[50px] border-black border-2 p-2" />
                                 </div>
+
+                                <div className="flex justify-start items-center w-full gap-2">
+                                    <input type="checkbox" name="" id="" className="accent-[#FFE1DB] size-[17px]" />
+                                    <label htmlFor="" className="max-lg:text-[14px] w-full"> Use shipping address as billing address</label>
+                                </div>
+
                             </form>
                             
                             <div className="mt-5 max-lg:mt-5 flex justify-center items-center">

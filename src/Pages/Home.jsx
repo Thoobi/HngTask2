@@ -36,8 +36,7 @@ const Notification = ({ message, onClose }) => {
             <Link to="/">
             <h3 className='underline mt-3 font-semibold'>Continue Shopping</h3>
             </Link>
-        </div>
-        
+        </div> 
     </div>
     );
 };
@@ -132,7 +131,7 @@ const Home = () =>{
 
                         <div className='mx-0 w-full mt-10'>
                             <h2 className='text-[18px]'>Filter by price</h2>
-                            <ul className='font-medium flex flex-col justify-between mt-4 text-[18px]'>
+                            <ul className='flex flex-col justify-between mt-4 text-[18px] font-semibold'>
                                 <li className='flex flex-row justify-start items-center'><TbCurrencyNaira className='size-[20px]' />2500 - 4000
                                 </li>
                                 <li className='flex flex-row justify-start items-center'><TbCurrencyNaira className='size-[20px]' /> 4000 - 6000

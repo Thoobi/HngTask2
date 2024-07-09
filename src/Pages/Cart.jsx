@@ -96,9 +96,9 @@ const Cart = () =>{
                             </div>
 
                             <div className="flex flex-row justify-between items-center w-[45%] gap-2 mt-8 max-md:mt-5 max-lg:w-[80%] max-md:w-full max-md:flex-wrap max-md:flex-row max-md:gap-2">
-                                <button className="w-[180px] h-[55px] bg-white rounded-2xl text-xl font-medium border-[1px] shadow-xl focus:bg-[#FFE1DB] hover:bg-[#FFE1DB] transition duration-300 ease-in-out transform hover:scale-105 max-md:w-[120px] max-md:h-[45px] max-md:text-base ">Save for later</button>
+                                <button className="w-[180px] h-[55px] bg-[#FFE1DB] rounded-2xl text-xl font-medium border-[1px] shadow-xl focus:bg-[#FFE1DB] hover:bg-[#FFE1DB] transition duration-300 ease-in-out transform hover:scale-105 max-md:w-[120px] max-md:h-[45px] max-md:text-base ">Save for later</button>
                                 <Link to="/Checkout">
-                                    <button className="w-[120px] h-[55px] bg-white rounded-2xl text-xl font-medium  focus:bg-[#FFE1DB] hover:bg-[#FFE1DB] shadow-xl transition duration-300 ease-in-out transform hover:scale-105 border-[1px] max-md:w-[120px] max-md:h-[45px] max-md:text-base">Checkout</button>
+                                    <button className="w-[120px] h-[55px] bg-[#FFE1DB] rounded-2xl text-xl font-medium  focus:bg-[#FFE1DB] hover:bg-[#FFE1DB] shadow-xl transition duration-300 ease-in-out transform hover:scale-105 border-[1px] max-md:w-[120px] max-md:h-[45px] max-md:text-base">Checkout</button>
                                 </Link>
                             </div>
                             {/* Storage holder */}
@@ -130,7 +130,7 @@ const Cart = () =>{
                                 </div>
                                 <div className="mt-10">
                                     <Link to="/">
-                                        <button className="w-48 bg-[#FFE1DB] border-[1px] border-black rounded-lg h-14 text-base font-[600]">Continue shopping</button>
+                                        <button className="w-48 bg-[#FFE1DB] border-[1px] border-black rounded-lg h-14 text-lg max-lg:text-base font-[600]">Continue shopping</button>
                                     </Link>
                                 </div>
                             </div>
