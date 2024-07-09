@@ -110,7 +110,7 @@ const Checkout = () =>{
                             </div>
                     </div>
 
-                    <div className="lg:hidden w-full h-[50px] flex justify-center items-center bg-[#FFE1DB] my-3">
+                    <div className="lg:hidden w-full h-[50px] flex justify-center items-center bg-[#FFE1DB] mt-7 my-3">
                         <h2 className="text-[20px] font-semibold text-center">Guest Details</h2>
                     </div>
 
