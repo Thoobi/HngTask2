@@ -30,8 +30,13 @@ const Navbar = () =>{
                         )}/>}
                     </div>
                     {open ?
-                        <div className='w-[60%] absolute right-0 h-[200px] bg-green-300 top-[105px] ' >
-
+                        <div className='w-[50%] max-md:w-[60%] absolute right-1 h-[400px] bg-[#FFE1DB] border-[1px] border-black top-[105px] flex justify-center items-center'>
+                            <div className='flex flex-col justify-between items-center w-full h-[75%]'>
+                                <Link className='text-2xl font-semibold'>Home</Link>
+                                <Link className='text-2xl font-semibold' to="/">Shop</Link>
+                                <Link className='text-2xl font-semibold' to="/Cart">Cart</Link>
+                                <Link className='text-2xl font-semibold' to="/Checkout">Checkout</Link>
+                            </div>
                         </div>
                         : null
                     }

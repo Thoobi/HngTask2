@@ -13,7 +13,7 @@ return (
         name="city"
         id="city"
         aria-placeholder="City"
-        className="w-[55%] h-[50px] border-black border-2 p-2"
+        className="w-[55%] h-[50px] border-black border-2 p-2 max-lg:text-base"
     >
         <option value="" selected disabled>Select your city</option>
         {citiesInLagos.map((city) => (

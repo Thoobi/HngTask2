@@ -13,7 +13,7 @@ const Cart = () =>{
     return(
         <div>
             <Navbar />
-            <div className="mt-[30px] max-lg:mt-[20px] font-inika">
+            <div className="mt-[30px] max-lg:mt-[20px] font-inika max-lg:flex-col">
                 <div className="max-lg:w-[90%] max-lg:mx-auto max-lg:mb-3 lg:hidden">
                     <Link to="/">
                         <AiOutlineArrowLeft className="max-lg:size-[30px] max-md:size-[25px]" />
@@ -35,13 +35,13 @@ const Cart = () =>{
                 </div>
 
                 {/* holds the cart image and notes and descriptions */}
-                <div className="flex flex-row justify-between w-[90%]  mx-auto my-[20px]">
+                <div className="flex flex-row justify-between w-[90%] mx-auto my-[20px]">
                     {/* hold the cart image and notes */}
-                    <div className=" flex flex-col justify-between items-center w-[40%] max-lg:w-[45%] max-lg:h-[530px] max-md:h-[250px]">
+                    <div className=" flex flex-col justify-between items-center w-[40%] max-lg:w-[45%] max-lg:h-[520px] max-md:h-[280px]">
                             <img src={box2} alt="" className="max-lg:w-full w-full h-[50%] max-lg:h-auto" />
                             <div className="flex flex-row justify-between items-center w-full max-lg:w-full">
-                                <img src={boxit1} alt="" className="w-[48%]" />
-                                <img src={boxit2} alt="" className="w-[48%]" />
+                                <img src={boxit1} alt="An image of a waffel" className="w-[48%]" />
+                                <img src={boxit2} alt="An image of a waffel" className="w-[48%]" />
                             </div>
                             <div className="w-full font-inika max-lg:hidden">
                                 <h4 className="max-lg:text-lg font-semibold text-xl py-3 max-lg:py-1">
@@ -99,7 +99,7 @@ const Cart = () =>{
                                 </Link>
                             </div>
                             {/* Storage holder */}
-                            <div className="w-[45%] mt-20">
+                            <div className="w-[45%] mt-20 max-lg:hidden">
                                 <div className="flex flex-col h-40">
                                     <h2 className="text-xl font-semibold border-b-[1px] mb-5 border-black">STORAGE</h2>
                                     <ul className="flex flex-col justify-between gap-3 mb-3">
@@ -132,13 +132,42 @@ const Cart = () =>{
                                 </div>
                             </div>
                         </div>
-                        
-
-                        
-
-                        
                     </div>
                 </div>
+
+                {/*Storage for tablet and small*/}
+                <div className="w-[45%] mt-20 max-lg:mt-10 max-lg:justify-center max-lg:items-center max-lg:w-[90%] max-lg:mx-auto lg:hidden max-lg:bg-[#F6F5F5] max-lg:p-5 rounded-[20px]">
+                                <div className="flex flex-col h-40 max-lg:w-full">
+                                    <h2 className="text-xl font-semibold border-b-[1px] mb-5 border-black max-lg:text-center max-lg:text-xl max-md:text-lg">STORAGE</h2>
+                                    <ul className="flex flex-col justify-between gap-3 mb-3 max-lg:justify-center max-lg:items-center max-lg:w-full max-lg:gap-2">
+                                        <li className="text-[18px] max-md:text-[14px] max-lg:text-base">Waffles contain no preservatives</li>
+                                        <li className="text-[18px] max-md:text-[14px] max-lg:text-base">Store for up to 1 week in an air tight container in a fridge or freezer</li>
+                                    </ul>
+                                </div>
+
+                                <div className="flex flex-col">
+                                    <h2 className="text-xl font-semibold border-b-[1px] mb-5 max-lg:mb-2 border-black max-lg:text-xl max-md:text-lg max-lg:text-center">DELIVERY INFORMATION</h2>
+                                    <p className="text-[18px] max-md:text-[14px] max-lg:text-base">
+                                    Our deliveries are made two (2) working days after order placement. Delivery occurs between 8AM - 6PM
+                                    </p>
+                                </div>
+
+                                <div className="flex flex-col justify-between items-start mt-5 w-full">
+                                    <div className="flex flex-row justify-between items-center border-b-2 border-black w-full">
+                                        <h2 className="text-lg font-semibold max-lg:text-base">REHEATING INSTRUCTIONS</h2>
+                                        <AiOutlinePlus className="align-middle size-[20px]"/>
+                                    </div>
+                                    <div className="flex flex-row justify-between items-center border-b-2 border-black w-full mt-10">
+                                        <h2 className="text-lg font-semibold max-lg:text-base">ALLERGENS</h2>
+                                        <AiOutlinePlus  className="align-middle size-[20px]"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="mt-10 max-lg lg:hidden max-lg:flex max-lg:justify-center max-lg:items-center max-lg:mb-5">
+                                    <Link to="/">
+                                        <button className="max-lg:w-44 max-lg:p-2 w-52 bg-[#FFE1DB] border-[1px] border-black rounded-lg h-14 text-lg font-[600]">Continue shopping</button>
+                                    </Link>
+                                </div>
             </div>
             <Footer />
         </div>
