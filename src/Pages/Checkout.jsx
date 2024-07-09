@@ -104,7 +104,7 @@ const Checkout = () =>{
                                 <input type="text" placeholder="Discount or promo code" className="outline-none border-none p-3" />
                                 <button className="bg-slate-300 p-3 w-[40%] rounded-br-lg text-base font-medium">Apply</button>
                             </div>
-                            <div className="bg-[#FFE1DB] max-lg:mt-5 mt-10 w-full h-[150px] flex flex-col justify-between px-[30px] py-[10px] max-lg:py-2">
+                            <div className="bg-[#FFE1DB] max-lg:mt-5 mt-10 w-full flex flex-col justify-between px-[30px] py-[10px] max-lg:py-2">
                                 <h3 className="font-semibold max-lg:text-center text-[20px]">**Delivery</h3>
                                 <p className="font-medium max-lg:text-lg max-lg:p-3">Our deliveries are made two (2) working days after order placement. Delivery occurs between 8AM - 6PM</p>
                             </div>
