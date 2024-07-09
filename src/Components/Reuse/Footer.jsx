@@ -8,7 +8,7 @@ const Footer = () =>{
     return(
         <div className="w-full pt-[15px] bg-[#FFE1DB] max-lg:bg-white font-inika flex flex-row justify-center items-center">
 
-            <div className="w-[90%] max-lg:w-full mx-auto my-0 bg-[#FFE1DB] max-lg:bg-white flex flex-row justify-between items-start max-lg:items-center max-lg:justify-between max-lg:flex-col gap-3 ">
+            <div className="w-[90%] max-lg:w-full mx-auto my-0 bg-[#FFE1DB] max-lg:bg-white flex flex-row justify-between items-start max-lg:items-center max-lg:justify-between max-lg:flex-col gap-3 py-10">
 
                 <div className='w-[30%] max-lg:w-full max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center max-lg:bg-[#FFE1DB] max-lg:px-4 max-lg:py-2'>
                     <h2 className='font-bold text-xl'>About</h2>
@@ -31,7 +31,7 @@ const Footer = () =>{
                     <div className='w-[85%] flex flex-col justify-between items-start'>
                         <div className='max-lg:w-[80%] max-lg:mx-auto max-lg:justify-between flex justify-start flex-row'>
                             <AiOutlineMail className='align-bottom  size-[24px]' />
-                            <Link className='max-lg:border-b-[2px] max-lg:border-black text-base'>morethanwafels@gmail.com</Link>
+                            <Link className='underline text-base'>morethanwafels@gmail.com</Link>
                         </div>
                         
                         <div className='max-lg:w-[45%] max-lg:mx-auto max-lg:justify-between flex justify-start flex-row font-medium max-lg:mt-2'>

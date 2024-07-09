@@ -31,7 +31,7 @@ const Notification = ({ message, onClose }) => {
                 <TbCurrencyNaira className='size-[20px]' /><h3 className='text-center text-base font-semibold'>{message.price}</h3>
             </div>
             <Link to="/Cart">
-                <button className='w-[70%] max-lg:w-[200px] h-[50px] bg-white border border-black mt-3 rounded-[18px] font-semibold hover:border-none'>View Cart</button>
+                <button className='w-[200px] max-lg:w-[200px] h-[50px] bg-white border border-black mt-3 rounded-[18px] font-semibold hover:border-none'>View Cart</button>
             </Link>
             <Link to="/">
             <h3 className='underline mt-3 font-semibold'>Continue Shopping</h3>
