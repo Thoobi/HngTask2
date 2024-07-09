@@ -12,63 +12,63 @@ export const data = [
    {
    id: 1,
    title: "Rafaello",
-   price: 109.95,
+   price: 10000,
    image: box1,
    Quantity: 0
    },
    {
    id: 2,
    title: "Plain Belgian",
-   price: 109.95,
+   price: 10000,
    image: box2,
    Quantity: 0
    },
    {
    id: 3,
    title: "Milk Chocolate",
-   price: 109.95,
+   price: 10000,
    image: box3,
    Quantity: 0
    },
    {
    id: 4,
    title: "Shrimp & Basil",
-   price: 109.95,
+   price: 10000,
    image: box4,
    Quantity: 0
    },
    {
    id: 5,
    title: "Lemon Iced",
-   price: 109.95,
+   price: 10000,
    Quantity: 0,
    image: box5,
    },
    {
    id: 6,
    title: "Churro",
-   price: 109.95,
+   price: 10000,
    Quantity: 0,
    image: box6,
    },
    {
    id: 7,
    title: "Biscoff",
-   price: 109.95,
+   price: 10000,
    Quantity: 0,
    image: box7,
    },
    {
    id: 8,
    title: "Waffle Pops",
-   price: 109.95,
+   price: 10000,
    Quantity: 0,
    image: box8,
    },
    {
    id: 9,
    title: "Salted Caramel",
-   price: 109.95,
+   price: 10000,
    Quantity: 0,
    image: box9,
    },

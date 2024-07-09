@@ -42,7 +42,7 @@ const Checkout = () =>{
         <div>
             <Navbar />
             {notification.show && <Notification message={notification.message} onClose={() => setNotification({ show: false, message: null })} />}
-            <div className="mt-10 w-full font-inika w-full h-full flex flex-col justify-between items-start">
+            <div className="mt-10 w-full font-inika h-full flex flex-col justify-between items-start">
                 <div className="max-lg:w-[90%] max-lg:mx-auto max-lg:mb-3 lg:hidden">
                     <Link to="/Cart">
                         <AiOutlineArrowLeft className="max-lg:size-[30px] max-md:size-[25px]" />
@@ -102,7 +102,7 @@ const Checkout = () =>{
 
                             <div className="mt-10 border border-slate-300 rounded-tr-lg rounded-br-lg flex flex-row self-end w-[60%] max-lg:self-end max-lg:mx-auto max-lg:w-[90%] max-lg:justify-between">
                                 <input type="text" placeholder="Discount or promo code" className="outline-none border-none p-3" />
-                                <button className="bg-slate-300 p-3 w-[40%] rounded-br-lg text-base font-medium">Apply</button>
+                                <button className="bg-slate-300 p-3 w-[40%] rounded-br-lg rounded-tr-lg text-base font-medium">Apply</button>
                             </div>
                             <div className="bg-[#FFE1DB] max-lg:mt-5 mt-10 w-full flex flex-col justify-between px-[30px] py-[10px] max-lg:py-2">
                                 <h3 className="font-semibold max-lg:text-center text-[20px]">**Delivery</h3>
@@ -161,7 +161,7 @@ const Checkout = () =>{
                                 <input type="text" placeholder="Name of card holder" className="w-full h-[50px] border-black border-2 p-4" />
                                 <input type="text" placeholder="Enter your card number" className="w-full h-[50px] border-black border-2 p-4" />
                                 <div className="flex flex-row justify-between items-center w-full">
-                                    <input type="text" placeholder="Expiration date (mm/yy)"   className="w-[60%] h-[50px] border-black border-2     p-2" />
+                                    <input type="text" placeholder=""   className="w-[60%] h-[50px] border-black border-2     p-2" />
                                     <input type="text" placeholder="Enter CVV"   className="w-[30%] h-[50px] border-black border-2     p-2" />
                                 </div>
                             </form>

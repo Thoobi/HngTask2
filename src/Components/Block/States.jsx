@@ -16,7 +16,7 @@ return (
         aria-placeholder="State"
         className="w-[40%] h-[50px] border-black border-2 p-2"
     >
-        <option value="" selected disabled>Select your state</option>
+        <option value="" selected disabled>State</option>
         {statesInNigeria.map((state) => (
         <option key={state} defaultValue={"Select your state"} value={state}>{state}</option>
         ))}

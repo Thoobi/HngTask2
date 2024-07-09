@@ -62,6 +62,9 @@ const Cart = () =>{
                                 <li><MdStarRate className="max-lg:size-[20px] max-md:size-[18px] size-[20px]" /></li>
                                 <li><MdStarRate className="max-lg:size-[20px] max-md:size-[18px] size-[20px]" /></li>
                             </ul>
+                            <div className="mb-2 font-semibold">
+                                <h2>Reviews <span>(169)</span></h2>
+                            </div>
                             
                             <div className="flex flex-row justify-between w-[30%] max-lg:w-[60%] max-md:w-[80%] max-lg:my-1 items-center mb-2">
                                 <AiOutlineMinusSquare className="max-lg:size-[30px] size-[40px] cursor-pointer" />
@@ -87,9 +90,9 @@ const Cart = () =>{
                             </div>
 
                             <div className="flex flex-row justify-between items-center w-[60%] max-lg:w-[90%] max-md:w-full mt-5 max-md:flex-row max-md:flex max-md:h-30 max-md:gap-2 max-md:flex-wrap">
-                                <button className="max-md:text-base max-md:w-[80px] max-md:h-[40px] max-lg:text-md max-lg:w-[100px] max-lg:h-[45px] w-[124px] h-[54px] bg-white border-[1px] border-black focus:bg-[#FFE1DB] rounded-2xl text-xl font-medium hover:bg-[#FFE1DB]">Box of 4</button>
-                                <button className="max-md:text-base max-md:w-[80px] max-md:h-[40px] max-lg:text-md max-lg:w-[100px] max-lg:h-[45px] w-[124px] h-[54px] bg-white border-[1px] border-black rounded-2xl text-xl font-medium focus:bg-[#FFE1DB] hover:bg-[#FFE1DB]">Box of 6</button>
-                                <button className="max-md:text-base max-md:w-[80px] max-md:h-[40px] max-lg:text-md max-lg:w-[100px] max-lg:h-[45px] w-[124px] h-[54px] bg-white border-[1px] border-black rounded-2xl text-xl font-medium focus:bg-[#FFE1DB] hover:bg-[#FFE1DB]">Box of 12</button>
+                                <button className="max-md:text-base max-md:w-[80px] max-md:h-[40px] max-lg:text-md max-lg:w-[100px] max-lg:h-[45px] w-[124px] h-[54px] bg-white border-[1px] border-black focus:bg-black focus:text-white rounded-2xl text-xl font-medium hover:bg-black hover:text-white">Box of 4</button>
+                                <button className="max-md:text-base max-md:w-[80px] max-md:h-[40px] max-lg:text-md max-lg:w-[100px] max-lg:h-[45px] w-[124px] h-[54px] bg-white border-[1px] border-black rounded-2xl text-xl font-medium focus:bg-black focus:text-white hover:bg-black hover:text-white">Box of 6</button>
+                                <button className="max-md:text-base max-md:w-[80px] max-md:h-[40px] max-lg:text-md max-lg:w-[100px] max-lg:h-[45px] w-[124px] h-[54px] bg-white border-[1px] border-black rounded-2xl text-xl font-medium focus:bg-black focus:text-white hover:bg-black hover:text-white">Box of 12</button>
                             </div>
 
                             <div className="flex flex-row justify-between items-center w-[45%] gap-2 mt-8 max-md:mt-5 max-lg:w-[80%] max-md:w-full max-md:flex-wrap max-md:flex-row max-md:gap-2">
